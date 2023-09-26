@@ -1,6 +1,16 @@
 class Uy:
     xonalar = 5
     vanna = 2
+class etaj2uy(Uy):
+    etaj = "2 etaj uy"
+    zvanok = "clock"
+    xonalar = 10
+    vanna = 8
+    def tasvirla(self):
+        print("Etaj:",self.etaj,"  Xonalar:",self.xonalar,"  Vanna:",self.vanna,"  Zvanok:",self.zvanok)
+
+etaj2uy = etaj2uy()
+etaj2uy.tasvirla()
 
 class modern_uy(Uy):
     kamera = True
