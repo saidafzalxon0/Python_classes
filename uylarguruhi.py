@@ -12,6 +12,19 @@ class etaj2uy(Uy):
 etaj2uy = etaj2uy()
 etaj2uy.tasvirla()
 
+
+class Orta(Uy):
+      qavat = 5
+      zvanok = True
+      issiqsuv = True
+      telefon = True
+
+      def tasvirla (self):
+           print("Qavatlar soni:",self.qavat,"Xonalar soni:", self.xonalar, "Vannalar soni", self.vanna, "Zvanok:", self.zvanok, "Issiqsuv:", self.issiqsuv, "Damashniy:", self.telefon)
+
+
+Orta = Orta()
+Orta.tasvirla()
 class modern_uy(Uy):
     kamera = True
     wifi = True
