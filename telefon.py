@@ -3,7 +3,7 @@ class Telefon:
 
 class Iphone:
     sistema = "iOS"
-    internet =
+    internet = 5
 
 
 
