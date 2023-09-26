@@ -5,7 +5,7 @@ class etaj2uy(Uy):
     etaj = "2 etaj uy"
     zvanok = "clock"
     xonalar = 10
-    vanna = 8
+    vanna = 5
     def tasvirla(self):
         print("Etaj:",self.etaj,"  Xonalar:",self.xonalar,"  Vanna:",self.vanna,"  Zvanok:",self.zvanok)
 
