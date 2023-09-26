@@ -1,16 +1,27 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+class Car:
+    brand='Chevralet'
+    logo='plus'
+    tezlik=250
+    made_in='Uzbekistan'
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print("Hello")
+class Car2(Car):
+    def __init__(self, yoqilgi, rang, ot_kuchi, ):
+        self.yoqilgi = yoqilgi
+        self.rang = rang
+        self.ot_kuchi = ot_kuchi
+    def chiqar(self):
+        print(self.brand,self.logo,self.tezlik,self.made_in,self.yoqilgi,self.rang,self.ot_kuchi)
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+
+class Car3 (Car):
+    yoqilgi="elektr"
+    def __init__ (self, marka):
+        self.marka=marka
+
+    def chiqar(self):
+        print(self.brand, self.logo, self.tezlik, self.made_in, self.yoqilgi,self.marka)
+car2 =Car2("benzin","oq",760)
+car3 =Car3("laseti")
+car2.chiqar()
+car3.chiqar()
