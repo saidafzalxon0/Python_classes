@@ -1,16 +1,1 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print("Hello")
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+Y2xhc3MgQ2FyOgogICAgYnJhbmQ9J0NoZXZyYWxldCcKICAgIGxvZ289J3BsdXMnCiAgICB0ZXpsaWs9MjUwCiAgICBtYWRlX2luPSdVemJla2lzdGFuJwoKCmNsYXNzIENhcjIoQ2FyKToKICAgIGRlZiBfX2luaXRfXyhzZWxmLCB5b3FpbGdpLCByYW5nLCBvdF9rdWNoaSwgKToKICAgICAgICBzZWxmLnlvcWlsZ2kgPSB5b3FpbGdpCiAgICAgICAgc2VsZi5yYW5nID0gcmFuZwogICAgICAgIHNlbGYub3Rfa3VjaGkgPSBvdF9rdWNoaQogICAgZGVmIGNoaXFhcihzZWxmKToKICAgICAgICBwcmludChzZWxmLmJyYW5kLHNlbGYubG9nbyxzZWxmLnRlemxpayxzZWxmLm1hZGVfaW4sc2VsZi55b3FpbGdpLHNlbGYucmFuZyxzZWxmLm90X2t1Y2hpKQoKCmNsYXNzIENhcjMgKENhcik6CiAgICB5b3FpbGdpPSJlbGVrdHIiCiAgICBkZWYgX19pbml0X18gKHNlbGYsIG1hcmthKToKICAgICAgICBzZWxmLm1hcmthPW1hcmthCgogICAgZGVmIGNoaXFhcihzZWxmKToKICAgICAgICBwcmludChzZWxmLmJyYW5kLCBzZWxmLmxvZ28sIHNlbGYudGV6bGlrLCBzZWxmLm1hZGVfaW4sIHNlbGYueW9xaWxnaSxzZWxmLm1hcmthKQpjYXIyID1DYXIyKCJiZW56aW4iLCJvcSIsNzYwKQpjYXIzID1DYXIzKCJsYXNldGkiKQpjYXIyLmNoaXFhcigpCmNhcjMuY2hpcWFyKCk=
