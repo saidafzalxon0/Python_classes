@@ -18,17 +18,21 @@ class Hp(Computer):
     def tasvirla(self):
          print("Model:", self.model, "Narxi:", self.narxi, "Atpechatka", self.atpechatka, "Klaviatura:", self.klaviatura, "Rangi:", self.rangi, "Toshi:", self.toshi)
 
-class Acer:
+class Acer(Computer):
     ovoz=100
     ssd=256
     aparativka=8
-class Lenovo(Acer):
+
+    def tasvirla(self):
+        print("klavatura",self.klaviatura,"rangi",self.rangi,"toshi",self.toshi, " ovoz",self.ovoz,"ssd",self.ssd,"aparativka",self.aparativka)
+
+class Lenovo(Computer):
     sceern ="15.6 HD"
     yoruglik=100
     model="lenovo"
 
     def tasvirla(self):
-        print("ekran",self.sceern,"yorug'lik",self.yoruglik,"model",self.model,"ovoz",self.ovoz,"ssd",self.ssd,"aparativka",self.aparativka)
+        print("ekran",self.sceern,"yorug'lik",self.yoruglik,"model",self.model,"klavatura",self.klaviatura,"rangi",self.rangi,"toshi",self.toshi)
 
 acer=Acer()
 lenovo=Lenovo()
